@@ -1,23 +1,133 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     background-color: aliceblue;
-
+    
 }
 
+/*sets header font size and space around it */
 header {
+    font-size: 200%;
     width: 500px;
     padding: 10px;
     margin: auto;
-
 }
 
-header h1 {
+/*changes all p text to gray and increases the size*/
+
+p {
+    text-decoration: lightslategray;
+    font-size: 150%;
     text-align: center;
 }
 
-.mylinks {
+h1 {
+    text-align: center;
+}
+
+/*changes all h2 text to gray and increases the size*/
+h2 {
+    font-size: 250%;
+    text-align: center;
+    padding: 25px;
+    
+}
+
+/*modifies links/navigation bar*/
+.navbar {
     text-align: right;
     word-spacing: 3px;
     justify-content: right;
     text-decoration-color: wheat;
 }
+
+/*adds a polaroid filter for the images*/
+.polaroids {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.polaroids img {
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.text {
+  text-align: center;
+  padding: 10px 20px;
+  margin: 100px 0px;
+  
+}
+
+.flex-polaroids {
+  display: flex;
+  justify-content: center;
+}
+
+/* styles text box are for submit form*/
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+  /* submit button styling */
+  input[type=submit] {
+    background-color: rgb(56, 63, 150);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* adds a teal hover effect on submit button*/
+  input[type=submit]:hover {
+    background-color: teal;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .Contact-Me {
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .contact-text {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    /* Use flex-direction when screen sized is reduced */
+    main {
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .flex-polaroids {
+      flex-wrap: wrap
+    }
+    
+    header {
+      background: #7fb5eb;
+  }
+}
+  /* img elements wrap when browser in shrunk to 768px */
+  @media screen and (max-width: 768px) {
+    .flex-polaroids {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    /* Change the header color */
+    header {
+      background: #7fb5eb;
+    }
+  }
+  

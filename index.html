@@ -7,42 +7,110 @@
     <title>Mad Max</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
+
 <body>
 <header>
     <h1>MAD MAX</h1>
-    <section class="mylinks">
-  <a href="#About Me">About Me</a>
+    <section class="navbar">
+  <a href="#About-Me">About Me</a>
   <a href="#Work">Work</a>
-  <a href="#Contact Me">Contact Me</a>
+  <a href="#Contact-Me">Contact Me</a>
     </section>
 </header>
+
+
 <main>
-  <section id="About Me">
-    <section class="About Me">
+  
+
+
+  <section id="About-Me">
+    <section class="About-Me">
       <h2>About Me</h2>
-      <p>This section will be about me</p>
+      <p>My name is Phillip Maxwell Lam Thach, also known as Mad Max <br>
+      I'm from Salt Lake City, Utah born and raised. I am an aspiring full-stack engineer. <br>
+      Currently I am working at an auto repair shop as a mechanic. <br>
+      In my past time I enjoy a small array of hobbies, I play guitar, run/hike with my dog, camping, and photography.
+      </p>
+      <section class="flex-polaroids">
+      <div class="polaroids">
+      <img src="./assets/photo-assets/me-in-a-field.JPEG" 
+      alt="me in a field of grass surrounded by mountains" class="image">
+      </div>
+      <div class="overlay">
+      <div class="text">Colorado Trail
+      </div>
 
+      </div>
+      <div class="polaroids">
+      <img src="assets/photo-assets/mirror-lake.JPEG" 
+      alt="a few trees in front of a blue lake" class="image">
+      </div>
+      <div class="overlay">
+      <div class="text">Mirror Lake
+      </div>
 
+      </div>
+      <div class="polaroids">
+      <img src="assets/photo-assets/nala-on-hike.JPG" 
+      alt="golden retriver in front of a mountain face" class="image">
+      </div>
+      <div class="overlay">
+      <div class="text">Grove Creek
+      </div>
+      </div>
+
+      <div class="polaroids">
+      <img src="assets/photo-assets/truck-camp.jpg"       
+      alt="a truck with the tailgate open enclosed with trees" class="image">
+      </div>
+      <div class="overlay">
+      <div class="text">Fairview
+      </div>
+      </div>
+
+    </div>
+      </section>
     </section>
-  </section>    
+  </section>  
 
   <section id="Work">
     <section class="Work">
       <h2>Work</h2>
-      <p>This section will be about my work</p>
-
+      <p>This section will be about my work <br>
+      Currently, I do not have a large selection of work to view, I do however have a mock-up website
+      that is displayed here:
+      </p>
+      <div class="flex-work">
+      <img src="./assets/photo-assets/html-demo.png">
+      </div>
     </section>
   </section>
 
 </main>
 
 <footer>
-  <section id="Contact Me">
-    <section class="Contact Me">
+  <section id="Contact-Me">
+    <section class="Contact-Me">
       <h2>Contact Me</h2>
-      <p>Phillip "Maxwell" Lam Thach<br>
-        801-708-2929<br>
+    <section class="contact-text">
+    <p>Phillip Maxwell Lam Thach<br>
         maxlamthach10@gmail.com<br>
+    </p>
+    </section>
+        <section class="form">
+          <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your Email">
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something here.." style="height:75px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </section>
+
       </p>
 
     </section>
