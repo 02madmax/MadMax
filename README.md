@@ -7,3 +7,4 @@ I used many different sources for this code, it is ultimately combined with ever
 ## Purpose
 The purpose of this code is for me to display all of my coding skills and showcase my own personal future portfolio. I will be adding more work to it soon.
 
+![](/assets/photo-assets/mywebsitescreenshot.png)
